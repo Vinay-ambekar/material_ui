@@ -4,6 +4,7 @@ import Buttons from "../Components/Buttons/Buttons"
 import Buttongroup from "../Components/ButtonGroups/Buttongroup"
 import Checkboxs from "../Components/Checkbox/Checkbox"
 import Radiobuttons from "../Components/RadioButtons/Radiobuttons"
+import Sliders from "../Components/Slider/Sliders"
 
 
 const Routing=()=>{
@@ -14,6 +15,7 @@ const Routing=()=>{
             <Route path='/buttonGroups' element={<Buttongroup/>} />
             <Route path='/checkbox' element={<Checkboxs/>} />
             <Route path='/radiobutton' element={<Radiobuttons/>} />
+            <Route path='/slider' element={<Sliders/>} />
             
         </Routes>
         </>

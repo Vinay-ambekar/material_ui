@@ -17,6 +17,7 @@ const Radiobuttons=()=>{
         ></Radio>
         <label>female</label>
         <Radio value='female'
+        color="secondary"
         checked={gender=='female'}
         onChange={testfunc}>
         </Radio>

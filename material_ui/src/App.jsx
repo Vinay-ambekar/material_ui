@@ -11,6 +11,7 @@ function App() {
       <Link to="/buttonGroups">Buttons Groups</Link>
       <Link to="/checkbox">Check box</Link>
       <Link to="/radiobutton">Radio button</Link>
+      <Link to="/slider">Slider</Link>
     </nav>
     <Routing></Routing>
     </center>
